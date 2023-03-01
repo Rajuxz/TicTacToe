@@ -236,7 +236,7 @@ function func_1(){
         document.getElementById("btn-1").disbled = true;
         flag = 0;
     }else{
-        document.getElementsById("btn-1").value = "O";
+        document.getElementById("btn-1").value = "O";
         document.getElementById("btn-1").disbled = true;
         flag = 1;
     }
