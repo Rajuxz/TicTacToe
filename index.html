@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TikTacToe</title>
+
+    <link rel="stylesheet" href="Assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="heading">Tic Tac Toe</h3>
+      <div class="subheadings">
+        <span class="text">First Player Is <b>Player X</b> and Second Player is
+          <b>Player O</b></span>
+      </div>
+      <!-- 3x3 grid -->
+      <div class="board">
+        <input type="text" id="btn-1" readonly onclick="func_1();func();"/>
+        <input type="text" id="btn-2" readonly onclick="func_2();func();"/>
+        <input type="text" id="btn-3" readonly onclick="func_3();func();"/> <br>
+        <input type="text" id="btn-4" readonly onclick="func_4();func();"/>
+        <input type="text" id="btn-5" readonly onclick="func_5();func();"/>
+        <input type="text" id="btn-6" readonly onclick="func_6();func();"/> <br>
+        <input type="text" id="btn-7" readonly onclick="func_7();func();"/>
+        <input type="text" id="btn-8" readonly onclick="func_8();func();"/>
+        <input type="text" id="btn-9" readonly onclick="func_9();func();"/>
+      </div>
+      <div class="reset-btn">
+        <button class="btn" onclick="reset();">
+            Reset
+        </button>
+      </div>
+      <div class="result">
+        <p id="print"></p>
+      </div>
+    </div>
+
+    <script src="Assets/js/script.js"></script>
+  </body>
+</html>
